@@ -6,7 +6,14 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #f3f1ff;
 }
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+}
     /* top players style */
+    .top-players{
+margin-bottom: 30px;
+    }
 .section-title{
     color: #562eff;
     font-size: 24px;
@@ -38,4 +45,38 @@ main{
 }
 .player-name{
     margin-left: 16px;
+    font-size: 18px;
+}
+
+/* ------------------
+top blog styles 
+--------------------*/
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 26px;
+
+}
+.blog{
+    display: flex;
+}
+.blog .thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    font-size: 16px;
+    color: #9F9F9F;
+}
+.blog-author a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
+
 }
