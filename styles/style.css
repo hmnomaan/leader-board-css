@@ -1,7 +1,6 @@
 /* fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
-
 /* common styles */
 
 body {
@@ -13,7 +12,6 @@ hr {
     border: 1px solid #D1D1D1;
     margin-bottom: 27px;
 }
-
 
 /* top players style */
 
@@ -64,7 +62,6 @@ main {
     font-size: 18px;
 }
 
-
 /* ------------------
 top blog styles 
 --------------------*/
@@ -106,7 +103,6 @@ top blog styles
     font-size: 16px;
     color: #562EFF;
 }
-
 
 /* courses style */
 
@@ -151,19 +147,16 @@ top blog styles
     color: #AEAEAE;
 }
 
-.course-duration,
-.far.fa-clock {
+.course-duration, .far.fa-clock {
     color: #FF4A60;
     margin-right: 16px;
     background: #FFE4E8;
     border-radius: 14.6913px
 }
 
-
 /* ------------------
 Media Queries
 ------------------ */
-
 
 /* Mobile Devices */
 
@@ -171,13 +164,10 @@ Media Queries
     .container {
         width: 100%;
     }
-    .players,
-    .blogs,
-    .courses {
-        grid-template-columns: repeat(1, 1fr);
+    .players, .blogs, .courses {
+        grid-template-columns: repeat(2, 1fr);
     }
-    .player,
-    .blog {
+    .player, .blog {
         flex-direction: column;
     }
     .courses {
@@ -188,15 +178,13 @@ Media Queries
     }
 }
 
-
 /* tablet device */
 
 @media screen and (min-width:688px) and (max-width:992px) {
     .container {
         width: 100%;
     }
-    .players,
-    .courses {
+    .players, .courses {
         grid-template-columns: repeat(2, 1fr);
     }
     .blogs {
